@@ -13,7 +13,7 @@ function Blog() {
   const [errorMessage, setErrorMessage] = useState('');
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const newsletterRef = useRef(null);  // Create a ref for the newsletter section
+  const newsletterRef = useRef(null);  
 
   const slideshowImages = [
     bg1,
@@ -269,7 +269,7 @@ function Blog() {
           )}
         </div>
 
-        {/* Mission Section with Coral Background on Left Side */}
+        
         <div style={{
           marginTop: '40px',
           display: 'flex',
@@ -294,7 +294,7 @@ function Blog() {
             flexDirection: 'column',
           }}>
             <img
-              src={iconheader} // Path to your logo
+              src={iconheader} 
               alt="Mission Logo"
               style={{
                 width: '90px',
@@ -313,7 +313,7 @@ function Blog() {
             </p>
           </div>
 
-          {/* Image on the right */}
+        
           <div style={{
             width: '100%',
             maxWidth: '400px',
@@ -321,7 +321,7 @@ function Blog() {
             textAlign: 'center',
           }}>
             <img
-              src={mainimg} // Path to your image
+              src={mainimg} 
               alt="Mission Image"
               style={{
                 width: '100%',
